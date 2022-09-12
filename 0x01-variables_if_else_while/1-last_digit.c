@@ -6,7 +6,7 @@
  *
  *
  * Return: always return 0
- * 
+ *
  */
 int main(void)
 {
