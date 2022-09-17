@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - check the code ffor holberton school students.
+ * main - check the code for holberton school students.
  *
  * Return: void
  */
@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i = 1;
+
 	while (i <= 100)
 	{
 		if (i % 3 == 0 && i & 5 == 0)
@@ -18,7 +19,7 @@ int main(void)
 		{
 			printf("Fizz");
 		}
-		else iff (i % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
